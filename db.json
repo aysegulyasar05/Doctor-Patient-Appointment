@@ -1,0 +1,33 @@
+{
+    "appointments": [
+        {
+            "id": "1",
+            "date": "09/17/2022",
+            "patientId": "1"
+        }
+    ],
+    "patients": [
+        {
+            "id": "1",
+            "name": "sample",
+            "surname": "sample",
+            "phone": "1531563463",
+            "procedureIds": ["1", "2"]
+        }
+    ],
+
+    "procedures": [
+        {
+            "id": "1",
+            "complaint": "flu",
+            "appliedTreatment": "2 days of rest recommended",
+            "prescribedMedications": ["parol", "katarin", "augmentin"]
+        },
+        {
+            "id": "2",
+            "complaint": "back pain",
+            "appliedTreatment": "standing",
+            "prescribedMedications": ["parol", "voltaren"]
+        }
+    ]
+}
